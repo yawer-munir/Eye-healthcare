@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EyeTune - Eye Health & Music Mood</title>
+    <link rel="stylesheet" href="eye.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">EyeTune</div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="eye.html">Eye Health</a>
+                    <a href="mood.html">Music Mood</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+        <section id="eye-health" class="feature-section">
+            <div class="container">
+                <h2>AI-Powered Eye Care</h2>
+                <div class="feature-content">
+                    <div class="feature-image">
+                        <img src="eyeicon.png" alt="Eye Health Icon">
+                    </div>
+                    <div class="feature-details">
+                        <p>Monitor your eye health with our cutting-edge AI technology.</p>
+                        <div class="feature-buttons">
+                            <button id="captureImage">Capture Image</button>
+                            <button id="startWebcam">Start Webcam</button>
+                        </div>
+                        <div id="videoFeed"></div>
+                        <div id="blinkCount">Blink Count: 0</div>
+                        <div id="eyeRecommendation"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EyeTune. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EyeTune - Eye Health & Music Mood</title>
+    <link rel="stylesheet" href="mood.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">EyeTune</div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="eye.html">Eye Health</a>
+                    <a href="mood.html">Music Mood</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="music-mood" class="feature-section">
+            <div class="container">
+                <h2>Mood-Enhancing Music</h2>
+                <div class="feature-content">
+                    <div class="feature-image">
+                        <img src="musicicon.png" alt="Music Mood Icon">
+                    </div>
+                    <div class="feature-details">
+                        <p>Generate personalized music based on your mood.</p>
+                        <input type="text" id="moodPrompt" placeholder="Describe your mood...">
+                        <button id="generateMusic">Generate Music</button>
+                        <div id="musicPlayer"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EyeTune. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

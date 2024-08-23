@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EyeTune - Your Eye Health & Music Mood Companion</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">EyeTune</div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="eye.html">Eye Health</a>
+                    <a href="mood.html">Music Mood</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Revolutionize Your Eye Health and Mood</h1>
+            <p>Experience the perfect blend of AI-driven eye care and personalized music therapy</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <div class="feature-icon">👁️</div>
+                <h2>AI-Powered Eye Care</h2>
+                <p>Monitor your eye health, track blink rates, and receive personalized recommendations for better
+                    visual well-being.</p>
+                <a href="eye.html" class="cta-button">Explore Eye Features</a>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🎵</div>
+                <h2>Mood-Enhancing Music</h2>
+                <p>Upload images or use your webcam to analyze your mood and generate personalized music playlists to
+                    elevate your spirit.</p>
+                <a href="mood.html" class="cta-button">Try Music Mood</a>
+            </div>
+        </div>
+    </section>
+    <button id="chatbotButton" class="chatbot-button">Chat</button>
+
+    <div id="chatbotInterface" class="chatbot-interface">
+        <div class="chatbot-header">
+            <h3>AI Assistant</h3>
+            <button id="closeChatbot">&times;</button>
+        </div>
+        <div id="chatMessages" class="chat-messages"></div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button id="sendMessage">Send</button>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EyeTune. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
